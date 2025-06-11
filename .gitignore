@@ -1,0 +1,4 @@
+*.o
+My_bsq
+*.a
+include/my.h
