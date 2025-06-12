@@ -9,7 +9,11 @@ SRC = 	file_size.c				\
 		open_file.c				\
 		my_str_to_word_array.c	\
 		my_strdup.c 			\
-		my_strlen.c		
+		my_strlen.c				\
+		my_getnbr.c				\
+		my_putstr.c				\
+		my_putchar.c			\
+		my_power.c
 
 
 HEADER = my.h

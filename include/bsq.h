@@ -8,6 +8,9 @@
 #ifndef BSQ_H_
 #define BSQ_H_
 
-int bsq(char *filename);
+    #include "my.h"
+    int bsq(char *filename);
+    void find_square(char **map);
+    void find_big_square(char **map, int *coord);
 
 #endif /* !BSQ_H_ */
