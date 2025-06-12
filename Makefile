@@ -5,10 +5,11 @@
 ## Makefile lib
 ##
 
-SRC =	main.c				\
-		src/bsq.c			\
-		src/find_square.c 	\
-		src/find_big_square.c
+SRC =	main.c					\
+		src/bsq.c				\
+		src/find_square.c 		\
+		src/find_big_square.c	\
+		src/check_map.c
 
 HEADER = my.h
 

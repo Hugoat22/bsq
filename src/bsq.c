@@ -18,6 +18,7 @@ int bsq(char *filename)
     char const *data_file = open_file(filename);
     if (data_file == NULL) return 84;
     char **map = my_str_to_word_array(data_file,sepa);
+    if (check_map(map) == -84) return 84;
     find_square(map);
     return 0;
 }

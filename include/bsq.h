@@ -12,5 +12,6 @@
     int bsq(char *filename);
     void find_square(char **map);
     void find_big_square(char **map, int *coord);
+    int check_map(char **map);
 
 #endif /* !BSQ_H_ */

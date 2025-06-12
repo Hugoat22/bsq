@@ -5,8 +5,6 @@
 ** function return coordonner and size big square
 */
 
-#include <stdio.h>
-
 #include "../include/bsq.h"
 
 int min(int a, int b)
@@ -36,7 +34,6 @@ void find_big_square(char **map, int *coord)
         if (count % size_map == 0) y++;
         int pos[] = {y,count % size_map};
         int size = size_square(map,pos,0);
-        printf("size : %d, x : %d, y : %d\n",size,pos[0],pos[1]);
         if (coord[2] < size) {
             coord[0] = pos[0];
             coord[1] = pos[1];
